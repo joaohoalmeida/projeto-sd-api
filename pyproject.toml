@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gestao-fretes"
+version = "0.1.0"
+description = "API para gerenciamento de fretes"
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+    "django>=6.1.1",
+    "djangorestframework>=3.17.1",
+    "djangorestframework-simplejwt>=5.5.1",
+    "drf-yasg>=1.21.15",
+    "requests>=2.32.3",
+    "django-cors-headers>=4.4.0"
+]
